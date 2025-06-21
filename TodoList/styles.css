@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: auto;
+    background: #12343b;
+    padding: 0px 16px 16px 16px;
+    min-width: 320px;
+  }
+  header {
+    position: sticky;
+    padding: 32px 0px 16px 0px;
+    top: 0;
+    background: #12343b;
+  }
+  header h1 {
+    color: white;
+    margin: 0px 0px 24px 0px;
+    text-align: center;
+  }
+  #todo-form {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  #todo-form-input-box {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    width: 100%;
+    border: 1px solid rgb(232, 234, 238);
+    color: black;
+    caret-color: rgb(0, 102, 255);
+    font-weight: 500;
+    border-radius: 16px;
+    outline: none;
+  }
+  #todo-form-input-box:focus {
+    border: 1px solid rgb(232, 234, 238);
+  }
+  #todo-form-submit {
+    padding: 8px 16px;
+    background-color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    min-width: max-content;
+  }
+  #todo-form-submit:hover {
+    background-color: rgb(0, 94, 209);
+  }
+  main h2 {
+    color: white;
+    margin: 24px 0px;
+  }
+  #task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .task-element {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid white;
+    align-items: center;
+  }
+  .task-input {
+    flex: 1;
+    color: white;
+    outline: none;
+  }
+  .task-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .task-edit,
+  .task-delete {
+    padding: 8px 12px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: max-content;
+    color: white;
+  }
+  .task-edit {
+    background-color: #6c757d;
+  }
+  .task-edit:hover {
+    background-color: #50575e;
+  }
+  .task-delete {
+    background-color: #dc3545;
+  }
+  .task-delete:hover {
+    background-color: #b31424;
+  }
+  .empty-task {
+    color: white;
+  }
+  
